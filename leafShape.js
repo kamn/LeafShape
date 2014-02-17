@@ -197,3 +197,8 @@ function runGen(){
 	return rightLeaf;
 }
 
+$(document).ready(function(){
+	$('button').click(function(){
+		runGen();
+	});
+});
